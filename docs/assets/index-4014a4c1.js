@@ -1,0 +1,1 @@
+import{i as s}from"./http-a024b3f6.js";const t=o=>s.post("/auth/register",{name:o.username,email:o.email,password:o.password,password_confirmation:o.comfirmPwd}),e=o=>s.post("/auth/login",{email:o.email,password:o.password}),n=()=>s.post("/auth/logout"),a=()=>s.get("/user");export{e as a,a as g,n as l,t as r};

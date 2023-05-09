@@ -1,0 +1,1 @@
+import{i as r}from"./http-a024b3f6.js";const e=t=>r.post("/carts",{goods_id:t}),o=()=>r.get("/carts?include=goods"),c=t=>r.delete("/carts/"+t),n=(t,s)=>r.put("/carts/"+t,{num:s}),d=(t=[])=>r.patch("/carts/checked",{cart_ids:t});export{d as a,e as b,o as g,c as r,n as u};

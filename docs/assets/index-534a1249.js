@@ -1,0 +1,1 @@
+import{i as e}from"./http-a024b3f6.js";const d=()=>e.get("/orders/preview"),a=r=>e.post("/orders",{address_id:r}),o=(r,s)=>e.patch(`/orders/${r}/paytest?type=${s}`),n=(r,s)=>e.get("/orders",{params:{include:"orderDetails.goods",status:r,page:s}}),c=r=>e.get(`/orders/${r}`,{params:{include:"orderDetails.goods,address"}});export{d as a,c as b,a as c,n as g,o as u};
